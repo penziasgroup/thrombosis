@@ -2,4 +2,73 @@
 Custom CSS styles that override base theme go here.
 */
 
+.header-block p.course-name a {
+  font-size:33px;
+  line-height:45px;
+}
+
+.course-admin .bio-full,
+.course-admin .close-me,
+.course-admin .open .read-more {
+  display:none;
+}
+
+.course-admin .open .close-me {
+  display:block;
+}
+
+.course-admin-box h3 {
+  color: #544e49;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+.course-admin-box .views-row {
+  overflow: hidden;
+  padding:20px;
+  background: #FFF;
+  margin-bottom:20px;
+}
+
+.course-admin-box .views-field-field-first-name {
+  font-weight:bold;
+}
+.course-admin-box .views-field-field-staff-picture {
+  width: 19%;
+  float: left;
+  margin-right: 3%;
+}
+
+.course-admin-box .views-field-field-main-content {
+  width: 78%;
+  float: left;
+}
+
+.course-admin-box .course-director-full-name {
+color: #544e49;
+font-size: 25px;
+}
+
+.page-faculty .region-secondary-content .hero-copy,
+.page-accreditation .region-secondary-content .hero-copy,
+.front .region-secondary-content .hero-copy {
+  display:none;
+}
+
+.page-faculty .region-secondary-content .views-field-field-hero-image,
+.page-accreditation .region-secondary-content .views-field-field-hero-image,
+.front .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+  float:none;
+  margin:0;
+}
+
+.page-faculty .region-secondary-content .views-field-field-hero-image img,
+.page-accreditation .region-secondary-content .views-field-field-hero-image img,
+.front .region-secondary-content .views-field-field-hero-image img {
+  width:100%;
+  display:block;
+}
 
